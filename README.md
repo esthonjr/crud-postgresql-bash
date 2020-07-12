@@ -3,10 +3,10 @@
 Este pacote é um exemplo simples de CRUD (Create, read, update and delete) com bash + postgresql.
 
 - [crud-postgresql-bash](#crud-postgresql-bash)
-  - [Configuração do export das variáveis de ambiente:](#configuração-do-export-das-variáveis-de-ambiente)
+  - [Configuração do export das variáveis de ambiente](#configuração-do-export-das-variáveis-de-ambiente)
   - [Utilização](#utilização)
 
-## Configuração do export das variáveis de ambiente:
+## Configuração do export das variáveis de ambiente
 Editar o arquivo crud.sh:
 ```bash
 export PGUSER=esthonjr
