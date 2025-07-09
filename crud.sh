@@ -9,6 +9,12 @@ export PGDATABASE=testdb
 export PGPASSWORD=estadmin
 export PGPORT=5432
 
+# Check if psql is available
+if ! command -v psql &> /dev/null; then
+    echo "Error: psql command not found. Please install PostgreSQL client."
+    exit 1
+fi
+
 if [ "$#" -ne 1 ]; then
     echo "Correct command is: $(basename $0) operation"
     echo "       create # para criar a tabela"
